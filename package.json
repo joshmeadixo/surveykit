@@ -1,0 +1,29 @@
+{
+  "name": "surveykit",
+  "version": "0.0.1",
+  "description": "A lightweight, in-app micro-survey and announcement engine for Next.js apps. JSON-configured. Client-side targeting. Store responses anywhere.",
+  "keywords": [
+    "survey",
+    "feedback",
+    "nps",
+    "csat",
+    "in-app",
+    "nextjs",
+    "react"
+  ],
+  "homepage": "https://github.com/joshmeadixo/surveykit#readme",
+  "bugs": {
+    "url": "https://github.com/joshmeadixo/surveykit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshmeadixo/surveykit.git"
+  },
+  "license": "MIT",
+  "author": "Josh Mead <https://github.com/joshmeadixo>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
