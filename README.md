@@ -1,38 +1,40 @@
 # surveykit
 
-**A lightweight, in-app micro-survey and announcement engine for Next.js apps.**  
-JSON-configured. Client-side targeting. Store responses anywhere.
+A lightweight, in-app micro-survey and announcement engine for Next.js apps.
 
-SurveyKit lets you add in-app surveys, announcements, and feedback prompts
-(NPS, CSAT, free-text feedback) without relying on a hosted SaaS.
+SurveyKit lets you show surveys, announcements, and feedback prompts inside your app using simple JSON configuration. All targeting is evaluated client-side, and you decide where responses are stored.
 
----
-
-## ✨ Features
-
-- 📦 **Next.js / React friendly**
-- 🧩 **JSON-based survey definitions**
-- 🎯 **Client-side targeting & triggers**
-- 🔁 **Frequency caps & cooldowns**
-- 🧠 **Event-based prompts**
-- 🎨 **Built-in UI components (modal, banner)**
-- 🔓 **Open source & self-hosted friendly**
-- 📡 **Send responses anywhere (your API, PostHog, webhooks, DB, etc.)**
+No hosted backend. No vendor lock-in.
 
 ---
 
-## 🧠 How it works
+## Why SurveyKit?
 
-1. You define surveys using JSON (locally or from your API)
-2. SurveyKit evaluates targeting rules in the browser
-3. When a survey is eligible, it renders the UI
-4. Responses are sent to a handler you control
+Most in-app survey tools are tied to hosted platforms and expensive add-ons.
+SurveyKit is different:
 
-No hosted backend required.
+- Surveys are defined as plain JSON
+- Targeting runs entirely in the browser
+- Responses are sent to your own API
+- You keep full control of data and branding
+
+SurveyKit is designed to be simple to integrate and easy to remove.
 
 ---
 
-## 🚀 Installation
+## Features
+
+- Works with Next.js and React
+- JSON-configured surveys and announcements
+- Client-side targeting (routes, delays, events)
+- Frequency caps and cooldowns
+- Built-in UI components (modal, banner)
+- Fully self-hosted friendly
+- Store responses anywhere
+
+---
+
+## Installation
 
 ```bash
 npm install surveykit
